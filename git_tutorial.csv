@@ -26,6 +26,8 @@ Merging,,,,,,
 Merge branch,git merge {name of branch} (the branch that needs to be merged with the current branch),,,,,
 Conflicts,,,,,,
 GitHub,,,,,,
+Save token in cache,git config --global credential.helper cache,,,,,
+Remove token from cache,git config --global --unset credential.helper,,,,,
 Add remote repository,"git remote add {NAME_OF_REMOTE} {URL_FOR_REPOSITORY}
 Example: git remote add webapps https://github.com/impulset/webapps.git",,,,,
 Send code to GitHub. Push,"git push {NAME_OF_REMOTE} {NAME_OF_BRANCH} Example: git push webapps master 
